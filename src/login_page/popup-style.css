@@ -1,0 +1,39 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 62.5%;
+}
+.popup{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.popup-inner{
+    position: relative;
+    padding:3.2rem;
+    width: 100%;
+    max-width: 50rem;
+    background-color: rgb(240, 192, 149);
+    border-radius: 5%;
+    box-shadow:10rem 10rem 40rem 60rem rgba(0, 0, 0, 0);
+   
+}
+.popup-inner .close-btn{
+    position: absolute;
+    top:1.6rem;
+    right:1.6rem;
+}
+.close-btn{
+    padding:0.7rem;
+    border:none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
